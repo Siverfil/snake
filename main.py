@@ -28,7 +28,7 @@ apple_img = pygame.image.load('apple.png').convert_alpha()
 apple_img = pygame.transform.scale(apple_img, (snake_block, snake_block))
 
 # Загрузка изображений змейки
-snake_head_img = pygame.image.load('d:\Новая папка\photo_5231253347896073583_y.png').convert_alpha()
+snake_head_img = pygame.image.load('photo_5231253347896073583_y.png').convert_alpha()
 snake_head_img = pygame.transform.scale(snake_head_img, (snake_block, snake_block))
 
 # Загрузка тела змейки
